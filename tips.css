@@ -1,0 +1,44 @@
+.card li{
+    text-align: left;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 2px solid #774411;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.card ol li::marker{
+    color: #774411;
+    font-weight: bold;
+}
+
+.scrollstyle {
+    width: 100%; /* Ширина елемента */
+    height: 400px; /* Висота елемента */
+    overflow: auto; /* Додає скроллбар, коли контент не вміщується */
+    padding: 10px; /* Відступи всередині */
+
+}
+
+/* Змінити ширину скроллбару для параграфа */
+.scrollstyle::-webkit-scrollbar {
+    width: 40px; /* Ширина вертикального скроллбару */
+}
+
+/* Змінити колір і вигляд повзунка (це те, що ми тягнемо) */
+.scrollstyle::-webkit-scrollbar-thumb {
+    /* background-color: #774411; Зелений колір для повзунка */
+    background-image: url(images/scroll.png);
+    background-size: contain; /* Картинка не буде перевищувати розміри повзунка */
+    background-position: center; /* Центруємо картинку */
+    background-repeat: no-repeat; /* Забороняємо повторення картинки */
+    border-radius: 10px; /* Округлі кути повзунка */
+    border: 2px solid grey;
+    background-color: white;
+}
+
+/* Змінити колір фону скроллбару */
+.scrollstyle::-webkit-scrollbar-track {
+    background-color: #e0e0e0; /* Світло-сірий фон для скроллбару */
+    border-radius: 10px; /* Округлі кути фону скроллбару */
+}

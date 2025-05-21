@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <!-- Мета дані, які вказують на кодування та адаптивний дизайн -->
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Пташиний світ</title>
+        
+        <!-- Підключення зовнішнього CSS файлу для стилізації -->
+        <link rel="stylesheet" href="style_site.css">
+        <link rel="stylesheet" href="BirdsUkraine_style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>Ласкаво просимо в Пташиний світ!</h1>
+            <p>Дізнайтесь більше про птахів та їхнє середовище існування в Україні.</p>
+        </header>
+
+        <!-- Навігаційне меню -->
+        <nav>
+            <ul class="list1">
+                <li><a class="birds" href="BirdsUkraine.html">Види птахів</a>
+                    <!-- Випадаючий список під пунктом меню -->
+                    <ul class="list2">
+                        <li><a href="Forest_Steppe.html">Лісові та степові птахи</a></li>
+                        <li><a href="Coastal.html">Прибережні птахи</a></li>
+                        <li><a href="BirdofPrey.html">Хижі птахи</a></li>
+                    </ul>
+                </li>
+                <li><a href="dictionary.html">Пташиний словник</a></li>
+                <li><a href="tips.html">Корисні поради</a></li>
+                <li><a href="gallery.html">Фотогалерея</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <!-- Розділ "Види птахів" -->
+        <section class="birds">
+            <h2 class="h2_header">Види птахів України</h2>
+
+            <!-- Карточки для кожної категорії птахів -->
+            <div class="card">
+                <h3>Лісові та степові птахи</h3>
+                <p>Ці птахи мешкають в лісових та степових екосистемах України. Вони адаптовані до різних умов проживання — від густих лісів до відкритих степових просторів.</p>
+                <button><a href="Forest_Steppe.html">Перейти на сторінку</a></button>
+            </div>
+
+            <div class="card">
+                <h3>Прибережні птахи</h3>
+                <p>Прибережні птахи часто зустрічаються на узбережжях морів, річок та озер України. Вони здатні жити у вологому середовищі та мають адаптовану фізіологію для життя біля води.</p>
+                <button><a href="Coastal.html">Перейти на сторінку</a></button>
+            </div>
+
+            <div class="card">
+                <h3>Хижі птахи</h3>
+                <p>Хижі птахи — це птахи, які полюють на інших тварин. Вони зазвичай мають гострі кігті та сильні дзьоби, що дозволяють їм ловити свою здобич.</p>
+                <button><a href="BirdofPrey.html">Перейти на сторінку</a></button>
+            </div>
+        </section>
+
+        <!-- Розділ контактів -->
+        <section id="contacts">
+            <h2>Контакти</h2>
+            <p>Якщо у вас є питання, не соромтеся зв'язатися з нами:</p>
+            <ul>
+                <li>Email: info@birdworld.com</li>
+                <li>Телефон: +38 (000) 123-45-67</li>
+            </ul>
+        </section>
+
+        <!-- Футер -->
+        <footer>
+            <p>&copy; 2025 Пташиний світ. Всі права захищено.</p>
+        </footer>
+
+    </body>
+</html>
+
+
+
